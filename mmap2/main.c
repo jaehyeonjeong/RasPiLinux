@@ -27,7 +27,7 @@ typedef struct mmap_test_struct
     char hobby[30];
 }MMAP_TEST_STRUCT;
 
-#define FILE_PATH "/home/user/.ssh/RasPiLinux/mmap2/mmap_test"
+#define FILE_PATH "/home/user/mmap_test"
 
 /**
  * @brief MMAP_TEST_STRUCT 구조체 출력 함수
@@ -53,9 +53,9 @@ void yj_print_struct(MMAP_TEST_STRUCT in)
  */
 void yj_setting_struct(const char *in_name, const int in_age, const char *in_hobby, MMAP_TEST_STRUCT *out)
 {
-    strncpy(out->name, in_name, sizeof(out->name));
+    strncpy(out->name, in_name, /*sizeof(out->name)*/ 20);
     out->age = in_age;
-    strncpy(out->hobby, in_hobby, sizeof(out->hobby));
+    strncpy(out->hobby, in_hobby, /*sizeof(out->hobby)*/ 30);
 }
 
 /**
