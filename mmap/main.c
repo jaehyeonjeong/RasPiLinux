@@ -16,7 +16,7 @@ typedef struct mmap_test_struct
 	char hobby[30];
 }MMAP_TEST_STRUCT;
 
-#define FILE_PATH "/home/user/.ssh/RasPiLinux/mmap/mmap_test"
+#define FILE_PATH "/home/user/mmap_test"
 
 /**
  *  @brief MMAP_TEST_STRUCT 구조체 출력 함수
