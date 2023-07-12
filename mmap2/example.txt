@@ -1,0 +1,11 @@
+모니터 화면
+
+./main -f monitor "example" ./채팅할 디렉토리 위치
+
+메세지 전송
+
+./main -f send (Message) "example" ./채팅할 디렉토리 위치
+
+anonymous test 
+
+./main -a
