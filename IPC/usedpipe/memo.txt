@@ -1,0 +1,7 @@
+IPC (Inter Process Communication) Using PIPE
+
+1.IPC 프로그래밍 기법 중 하나이다.
+2.익명의 PIPE를 통해서 동일한 PPID를 가진 프로세스들 간에 단방향 통신을 지원한다.
+ - 단방향 통신을 지원하기 때문에 fork()를 사용하여 자식 프로세스를 열 경우 파일 디스크럽터를 close 해주는 코드가 필요하다.
+3.구조는 FIFO(First In First Out)구조를 가지고 있다.
+4.related process 간에 사용 가능하다.(ex. fork())
