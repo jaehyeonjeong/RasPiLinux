@@ -8,7 +8,7 @@
 
 void ctrl_c_sighandler(int signum)
 {
-	printf("CTRL + C \n");
+	printf("CTRL + C  (%d) \n", signum);	//Ctrl+C의 시그널은 2
 }
 
 int main(int argc, char **argv)
