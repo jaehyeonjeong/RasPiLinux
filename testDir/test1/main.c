@@ -8,7 +8,7 @@
 #include<sys/ipc.h>
 #include<sys/msg.h>
 
-#define SHARED_PATH "/home/alwns28/example_folder/sysv_example/pw_file"
+#define SHARED_PATH "./pw_file"
 #define PROJ_ID 1234
 
 #define MAX_BUF_LEN 1024
