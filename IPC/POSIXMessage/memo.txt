@@ -1,0 +1,7 @@
+POSIX MESSAGE QUEUE
+  - MESSAGE 기반의 커뮤티케이션을 제공한다.
+	1. 부분 바이트 read 없음
+	2. Multiple message read 없음
+  - 하나의 메세지 큐로 read/write 가능 
+  - 멀티 reader / 멀티 writer 기능 가능
+  - FILE I/O 기반 동작 -> 이를 사용하여 I/O 
